@@ -39,4 +39,16 @@ class GameTest {
         //THEN
         assertEquals("Buzz", actual);
     }
+
+    @Test
+    public void isFizzBuzzTest_when15_thenReturnFizzBuzz() {
+        //GIVEN
+        int a = 15;
+
+        //WHEN
+        String actual = Game.fizzBuzz(a);
+
+        //THEN
+        assertEquals("fizzBuzz", actual);
+    }
 }
