@@ -13,7 +13,7 @@ class GameTest {
         String actual = Game.fizzBuzz(a);
 
         //THEN
-        assertEquals("4", actual);
+        assertEquals("5", actual);
     }
 
     @Test
